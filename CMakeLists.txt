@@ -8,6 +8,6 @@ add_library(spidev-lib++ SHARED src/spidev_lib++.cc)
 
 install(TARGETS spidev-lib DESTINATION lib)
 install(TARGETS spidev-lib++ DESTINATION lib)
-INSTALL( FILES src/spidev_lib.h DESTINATION include)
-INSTALL( FILES src/spidev_lib++.h src/spidev_lib.h DESTINATION include)
+install( FILES src/spidev_lib.h DESTINATION include)
+install( FILES src/spidev_lib++.h DESTINATION include)
 
