@@ -34,4 +34,3 @@ you can compile it from main directory in this way.
 * g++ sample/spidev-testcpp.cc -lspidev-lib++ -o spidev-testcpp
 * gcc sample/spidev-testc.c -lspidev-lib -o spidev-testc
 
-if you have any question you can contact me at lemouchon at gmail dot com.
